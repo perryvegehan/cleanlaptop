@@ -1,5 +1,5 @@
 #!/bin/bash
-
+echo "🔥 PRE-COMMIT HOOK EXECUTED!"
 REPO_ROOT="$(git rev-parse --show-toplevel)"
 
 "$REPO_ROOT/.venv/bin/python" "$REPO_ROOT/scripts/script.py"
